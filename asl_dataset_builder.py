@@ -30,7 +30,7 @@ class ASLDatasetBuilder:
         dataset_size (int): The number of images to collect for each label.
     """
 
-    def __init__(self, data_dir='./data', labels=None, dataset_size=20):
+    def __init__(self, data_dir='./data', labels=None, dataset_size=1):
         """
         Initializes the ASL Dataset Builder with data directory, labels, and dataset size.
 
@@ -40,7 +40,7 @@ class ASLDatasetBuilder:
             dataset_size (int): Number of images to collect for each label.
         """
         if labels is None:
-            labels = ['hello', 'thanks', 'yes', 'no', 'iloveyou']
+            labels = ['Hello', 'Thanks', 'Yes', 'No', 'I Love You']
         self.data_dir = data_dir
         self.labels = labels
         self.dataset_size = dataset_size
