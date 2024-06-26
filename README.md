@@ -10,6 +10,10 @@ The system consists of four main components:
 2. **ASL Landmark Annotation**: Script to annotate these images with hand landmarks using MediaPipe.
 3. **ASL Model Builder**: Script for training a convolutional neural network (CNN) on the processed dataset.
 4. **Real-time ASL Recognition**: Script that uses a pre-trained model to recognize ASL signs in real-time via a webcam.
+   
+## Demo Video
+
+- [ASL Gesture Recognition Demo](https://northeastern.instructuremedia.com/embed/1b37dd67-2d1a-44f5-9997-ae5bbfaffc45) - Watch the real-time recognition of American Sign Language gestures using machine learning and computer vision techniques
 
 ### Prerequisites
 
